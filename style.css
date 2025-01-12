@@ -39,9 +39,6 @@ label{
     border-radius: 4px;
 }
 
-/* label:hover{
-    box-shadow: 2px 2px 2px 2px blue;
-} */
 
 input{
     width: 50%;
@@ -51,76 +48,3 @@ input{
 input:hover{
     box-shadow: 2px 2px 2px 2px red;
 }
-
-
-/* img{
-    width: 350px;
-    height: 200px;
-    border-radius: 4px;
-    object-fit: cover;
-}
-
-#contain{
-    background-color: rgb(33 27 27);
-    height: 120px;
-    font-family: 'Times New Roman', Times, serif;
-    width: 350px;
-    font-size: 16px;
-    padding: 10px 0 10px 10px;
-    color: white;
-    border-radius: 4px;
-}
-
-#contain span{
-    font-size: 16px;
-}
-
-.button-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 350px;
-    gap: .3rem;
-}
-
-.button-div{
-    width: 48%;
-}
-
-.button-div:hover{
-    box-shadow: 2px 2px 2px 2px red;
-}
-
-button{
-    width: 100%;
-    display: inline-block;
-    outline: none;
-    border: none;
-    padding: 8px;
-    font-size: 15px;
-    border-radius: 4px;
-    background-color: rgb(33 27 27);
-    cursor: pointer;
-    color: white;
-    font-family:auto;
-}
-
-
-
-.one{
-    color: rgb(13, 185, 207);
-}
-
-.two{
-    color: greenyellow;
-}
-
-.three{
-    color: yellow;
-}
-
-.four{
-    color: orangered;
-}
-
-
- */

@@ -6,30 +6,11 @@
     <title>CSS filters</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-    /* button{
-        background-color: red;
-        padding: 20px;
-    }
-
-    .demo{
-        background-color: black;
-        width: 80px;
-        height: 90px;
-        color: white;
-    } */
-</style>
 <body>
-
-    <!-- <button>ritu</button>
-    <button>RAJ</button>
-
-    <div class="demo"></div> -->
 
      <img id="myimage" src="images/image6.jpg" alt="">
 
-     <di
-     v class="container">
+     <div class="container">
       <div class="label-container">
         <label for="">Opacity</label>
        <input type="range" min="0" max="100" value="100" step="1" onchange="applyfilter()" data-filter="opacity" data-  scale="%"><br>
@@ -70,121 +51,10 @@
         <label for="">Saturate</label>
         <input type="range" min="1" max="100" value="1" step="1" onchange="applyfilter()" data-filter="saturate" data-scale=""><br>
        </div>
-       
-     </di>
-     
-     
-     
-     
-     
-     
-    
-    <!-- <div id="contain">
-        <span>
-            <pre><span class="four">img</span>  <span class="three">{</span>
-                
-                <span class="one">filter: </span><span class="two"></span>
-
-            <spen class="three">}</spen>
-            </pre>
-        </span>
-  
-    </div>
-
-    <div class="button-container">
-        <div class="button-div">
-            <button>Default</button>
-        </div>
-        <div class="button-div">
-            <button>Blur</button>
-        </div>
-        <div class="button-div">
-            <button>Grayscale</button>
-        </div>
-        <div class="button-div">
-            <button>Brightness</button>
-        </div>
-        <div class="button-div">
-            <button>contrast</button>
-        </div>
-        <div class="button-div">
-            <button>Saturate</button>
-        </div>
-        <div class="button-div">
-            <button>Opacity</button>
-        </div>
-        <div class="button-div">
-            <button>Hue-Rotate</button>
-        </div>
-        <div class="button-div">
-            <button>Drop-Shaodw</button>
-        </div>
-        <div class="button-div">
-            <button>Invert</button>
-        </div>
-    </div>
-    
-     -->
+     </div> 
 </body>
 
 <script>
-  // console.log("ritu")
-
-  // const button_div=document.querySelectorAll("button")
-  // console.log(button_div[1].innerHTML)
-
-  // const two=document.querySelector(".two");
-  // console.log(two.innerHTML)
-  
-
-  // button_div[0].addEventListener("click",function(){
-  //   two.innerHTML="blur(2px);";
-  // })
-
-  // button_div[1].addEventListener("click",function(){
-  //   two.innerHTML="blur(2px);";
-  //   document.getElementById("myimage").style.filter="blur(2px)";
-  // })
-
-  // button_div[2].addEventListener("click",function(){
-  //   two.innerHTML="grayscale(0.4);";
-  //   document.getElementById("myimage").style.filter="grayscale(0.4)";
-  // })
-
-  // button_div[3].addEventListener("click",function(){
-  //   two.innerHTML="brightness(50%);";
-  //   document.getElementById("myimage").style.filter="brightness(50%)";
-  // })
-
-  // button_div[4].addEventListener("click",function(){
-  //   two.innerHTML="contrast(50%);";
-  //   document.getElementById("myimage").style.filter="contrast(50%)";
-  // })
-
-  // button_div[5].addEventListener("click",function(){
-  //   two.innerHTML="saturate(50%);";
-  //   document.getElementById("myimage").style.filter="saturate(150%)";
-  // })
-
-  // button_div[6].addEventListener("click",function(){
-  //   two.innerHTML="opacity(.5);";
-  //   document.getElementById("myimage").style.filter="opacity(.5)";
-  // })
-
-  // button_div[7].addEventListener("click",function(){
-  //   two.innerHTML="hue-rotate(90deg);"
-  //   document.getElementById("myimage").style.filter="hue-rotate(90deg)";
-  // })
-
-  // button_div[8].addEventListener("click",function(){
-  //   two.innerHTML="drop-shadow(10px 10px 7px <br> lightblue);";
-  //   document.getElementById("myimage").style.filter="drop-shadow(10px 10px 7px lightblue)";
-  // })
-
-  // button_div[9].addEventListener("click",function(){
-  //   two.innerHTML="invert(70%);";
-  //   document.getElementById("myimage").style.filter="invert(70%)";
-  // })
   
   var image=document.querySelector("img");
   var filtercontrols=document.querySelectorAll('input[type=range]');
@@ -195,8 +65,6 @@
     });
     image.style.filter=computedfilters;
   }
-
-    
   
 </script>
 </html>
